@@ -1,0 +1,5 @@
+#To add post
+http --auth eyJhbGciOiJIUzI1NiIsImV4cCI6MTQ5OTMzMzczNSwiaWF0IjoxNDk5MzMwMTM1fQ.eyJpZCI6MX0.CEQpmN6l_dmKtay8Gorg0AJrbzmB4eYA6JHCIEKPjWo:  --form POST http://127.0.0.1:5000/api_rt/v1.0/posts body='Is it going to be goal' header='Neymar doing bicycle kick'  tactical_gif@/home/deepak/Downloads/neymar.jpg
+
+To get token:
+http --json --auth deepak_p_jose@yahoo.co.in:Fcbarca13 GET http://127.0.0.1:5000/api_rt/v1.0/token
